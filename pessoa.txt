@@ -1,0 +1,14 @@
+
+public class Pessoa {
+public String nome;
+public String agencia;
+public String conta;
+public double renda;
+private String endereço;
+Pessoa(){
+	
+}
+public void creditar(double valor){
+	renda = renda + valor;
+}
+}

@@ -1,0 +1,17 @@
+public class teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pessoa p = new Pessoa();
+		p.nome = "Jose";
+		PessoaFisica pf = new PessoaFisica();
+		pf.nome = "maria";
+		pf.CPF = "00000000";
+		pf.creditar(1000);
+		System.out.println(pf.renda);
+		PessoaJuridica pj = new PessoaJuridica();
+		pj.creditar(5000);
+		System.out.println(pj.renda);
+	}
+
+}
